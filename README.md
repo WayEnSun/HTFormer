@@ -1,4 +1,5 @@
 # HTFormer
+<<<<<<< HEAD
 
  
 
@@ -101,3 +102,6 @@ This repository is developed based on the single object tracking framework [vide
 
 
 
+=======
+Video Object Tracking
+>>>>>>> 5ee24dc865ba4296169e49bde9775336d12e193c

@@ -43,24 +43,7 @@ pip install -r requirements.txt
 |   |   |   |   ├── VOT2018 -> /opt/data/VOT2018
 |   |   |   |   └── VOT2018.json
 ```
-* Notes
 
-> i. Star notation(*): just for training. You can ignore these datasets if you just want to test the tracker.
-> 
-> ii. In this case, we create soft links for every dataset. The real storage location of all datasets is `/opt/data/`. You can change them according to your situation.
-> 
-> iii. The `VOT2018.json` file can be download from [here](https://drive.google.com/file/d/15iXOqZhPAJ-EnaMTLUsJkwMsUCneUq4V/view?usp=sharing).
-
-* Download the models we trained.
-    
-    :paperclip: [GOT-10k model](https://drive.google.com/file/d/1AT6SAieig8oNQ-MJ6dUhCfgYCyJEdxfj/view?usp=sharing)
-    :paperclip: [fulldata model](https://drive.google.com/file/d/1w7nhGZR53FQnh3fVbIcbj08hxa2Zjvub/view?usp=sharing)
-
-
-* Use the path of the trained model to set the `pretrain_model_path` item in the configuration file correctly, then run the shell command.
-
-
-* Note that all paths we used here are relative, not absolute. See any configuration file in the `experiments` directory for examples and details.
 
 ### General command format
 ```Shell
